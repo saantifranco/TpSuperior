@@ -105,8 +105,11 @@ int main() {
 									cout << "X: " << datos[j].hidrogeno << " Y: " << datos[j].fotones << endl;
 									cout << "X: " << datos[k].hidrogeno << " Y: " << datos[k].fotones << endl;
 									cout << "X: " << datos[l].hidrogeno << " Y: " << datos[l].fotones << endl;
-									cout << "SumX: " << sumX << ". SumY: " << sumY << ". SumXX: " << sumXX << ". SumXY: " << sumXY << endl;
-									cout << "Pendiente recta calculada: " << pendienteAux << ". Ordenada recta calculada: " << ordenadaAux << endl;
+									//cout << "SumX: " << sumX << ". SumY: " << sumY << ". SumXX: " << sumXX << ". SumXY: " << sumXY << endl;
+                                    					cout << "Pendiente recta calculada: " << pendienteAux << endl;
+                                					cout << "Ordenada recta calculada: " << ordenadaAux << endl;
+                                					cout << "Diferencia de cuadrados: " << diferenciaCuadrados << endl;
+                                    					cout << endl;
 								}
 							}
 						}
