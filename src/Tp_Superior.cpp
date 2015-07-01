@@ -126,7 +126,7 @@ int main() {
 
 int iniciarPrograma(int cantidadDatos){
 	cout << "Bienvenido, calcularemos las rectas de regresion que posea minimos cuadrados" << endl;
-	cout << "segun los datos ingresados" << endl;
+	cout << "segun los datos ingresados y con error maximo de suma de minimos cuadrados = 0.3" << endl;
 	cout << "Utilizaremos los datos que se encuentran en 'datos.txt' " << endl;
 	cout << "Con " << cantidadDatos << " datos, tomando los 2 primeros como fijos y considerando que la mitad" << endl;
 	cout << "corresponden a una muestra y la otra mitad a otra" << endl;
