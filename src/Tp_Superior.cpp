@@ -119,14 +119,17 @@ int main() {
 		}
 	}
 	cout << "No hay mas combinaciones con tan poco margen de error" << endl;
-
+	
+	system("pause");
 	return 0;
 }
 
 int iniciarPrograma(int cantidadDatos){
-	cout << "Bienvenido, calcularemos las rectas de regresion que posea minimos cuadrados segun los datos ingresados" << endl;
+	cout << "Bienvenido, calcularemos las rectas de regresion que posea minimos cuadrados" << endl;
+	cout << "segun los datos ingresados" << endl;
 	cout << "Utilizaremos los datos que se encuentran en 'datos.txt' " << endl;
-	cout << "Con " << cantidadDatos << " datos, tomando los 2 primeros como fijos y considerando que la mitad corresponden a una muestra y la otra mitad a otra" << endl;
+	cout << "Con " << cantidadDatos << " datos, tomando los 2 primeros como fijos y considerando que la mitad" << endl;
+	cout << "corresponden a una muestra y la otra mitad a otra" << endl;
 	double combinatoria = 0;
 	double numerador, denominador;
 	cantidadDatos = cantidadDatos-2;
